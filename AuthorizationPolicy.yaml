@@ -1,0 +1,66 @@
+apiVersion: #<string>
+kind: #<string>
+metadata: #<Object>
+  annotations: #<map[string]string>
+  clusterName: #<string>
+  creationTimestamp: #<string>
+  deletionGracePeriodSeconds: #<integer>
+  deletionTimestamp: #<string>
+  finalizers: #<[]string>
+  generateName: #<string>
+  generation: #<integer>
+  labels: #<map[string]string>
+  managedFields: #<[]Object>
+    apiVersion: #<string>
+    fieldsType: #<string>
+    fieldsV1: #<map[string]>
+    manager: #<string>
+    operation: #<string>
+    subresource: #<string>
+    time: #<string>
+  name: #<string>
+  namespace: #<string>
+  ownerReferences: #<[]Object>
+    apiVersion: #<string>
+    blockOwnerDeletion: #<boolean>
+    controller: #<boolean>
+    kind: #<string>
+    name: #<string>
+    uid: #<string>
+  resourceVersion: #<string>
+  selfLink: #<string>
+  uid: #<string>
+spec: #<Object>
+  action: #<string>
+  provider: #<Object>
+    name: #<string>
+  rules: #<[]Object>
+    from: #<[]Object>
+      source: #<Object>
+        ipBlocks: #<[]string>
+        namespaces: #<[]string>
+        notIpBlocks: #<[]string>
+        notNamespaces: #<[]string>
+        notPrincipals: #<[]string>
+        notRemoteIpBlocks: #<[]string>
+        notRequestPrincipals: #<[]string>
+        principals: #<[]string>
+        remoteIpBlocks: #<[]string>
+        requestPrincipals: #<[]string>
+    to: #<[]Object>
+      operation: #<Object>
+        hosts: #<[]string>
+        methods: #<[]string>
+        notHosts: #<[]string>
+        notMethods: #<[]string>
+        notPaths: #<[]string>
+        notPorts: #<[]string>
+        paths: #<[]string>
+        ports: #<[]string>
+    when: #<[]Object>
+      key: #<string>
+      notValues: #<[]string>
+      values: #<[]string>
+  selector: #<Object>
+    matchLabels: #<map[string]string>
+status: #<>

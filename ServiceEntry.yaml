@@ -1,0 +1,55 @@
+apiVersion: #<string>
+kind: #<string>
+metadata: #<Object>
+  annotations: #<map[string]string>
+  clusterName: #<string>
+  creationTimestamp: #<string>
+  deletionGracePeriodSeconds: #<integer>
+  deletionTimestamp: #<string>
+  finalizers: #<[]string>
+  generateName: #<string>
+  generation: #<integer>
+  labels: #<map[string]string>
+  managedFields: #<[]Object>
+    apiVersion: #<string>
+    fieldsType: #<string>
+    fieldsV1: #<map[string]>
+    manager: #<string>
+    operation: #<string>
+    subresource: #<string>
+    time: #<string>
+  name: #<string>
+  namespace: #<string>
+  ownerReferences: #<[]Object>
+    apiVersion: #<string>
+    blockOwnerDeletion: #<boolean>
+    controller: #<boolean>
+    kind: #<string>
+    name: #<string>
+    uid: #<string>
+  resourceVersion: #<string>
+  selfLink: #<string>
+  uid: #<string>
+spec: #<Object>
+  addresses: #<[]string>
+  endpoints: #<[]Object>
+    address: #<string>
+    labels: #<map[string]string>
+    locality: #<string>
+    network: #<string>
+    ports: #<map[string]integer>
+    serviceAccount: #<string>
+    weight: #<integer>
+  exportTo: #<[]string>
+  hosts: #<[]string>
+  location: #<string>
+  ports: #<[]Object>
+    name: #<string>
+    number: #<integer>
+    protocol: #<string>
+    targetPort: #<integer>
+  resolution: #<string>
+  subjectAltNames: #<[]string>
+  workloadSelector: #<Object>
+    labels: #<map[string]string>
+status: #<>

@@ -1,0 +1,59 @@
+addressType: #<string>
+apiVersion: #<string>
+endpoints: #<[]Object>
+  addresses: #<[]string>
+  conditions: #<Object>
+    ready: #<boolean>
+    serving: #<boolean>
+    terminating: #<boolean>
+  deprecatedTopology: #<map[string]string>
+  hints: #<Object>
+    forZones: #<[]Object>
+      name: #<string>
+  hostname: #<string>
+  nodeName: #<string>
+  targetRef: #<Object>
+    apiVersion: #<string>
+    fieldPath: #<string>
+    kind: #<string>
+    name: #<string>
+    namespace: #<string>
+    resourceVersion: #<string>
+    uid: #<string>
+  zone: #<string>
+kind: #<string>
+metadata: #<Object>
+  annotations: #<map[string]string>
+  clusterName: #<string>
+  creationTimestamp: #<string>
+  deletionGracePeriodSeconds: #<integer>
+  deletionTimestamp: #<string>
+  finalizers: #<[]string>
+  generateName: #<string>
+  generation: #<integer>
+  labels: #<map[string]string>
+  managedFields: #<[]Object>
+    apiVersion: #<string>
+    fieldsType: #<string>
+    fieldsV1: #<map[string]>
+    manager: #<string>
+    operation: #<string>
+    subresource: #<string>
+    time: #<string>
+  name: #<string>
+  namespace: #<string>
+  ownerReferences: #<[]Object>
+    apiVersion: #<string>
+    blockOwnerDeletion: #<boolean>
+    controller: #<boolean>
+    kind: #<string>
+    name: #<string>
+    uid: #<string>
+  resourceVersion: #<string>
+  selfLink: #<string>
+  uid: #<string>
+ports: #<[]Object>
+  appProtocol: #<string>
+  name: #<string>
+  port: #<integer>
+  protocol: #<string>
